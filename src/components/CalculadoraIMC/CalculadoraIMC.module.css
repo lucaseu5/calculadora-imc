@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.option label {
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.option input {
+    margin-top: 20px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 15px 50px;
+    background-color: var(--corPrincipal);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px soid #fff;
+}
+
